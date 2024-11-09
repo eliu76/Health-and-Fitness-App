@@ -1,0 +1,40 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font family for the whole app */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Default font */
+    line-height: 1.6; /* Better line spacing */
+}
+
+/* Center the main content */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main app container */
+h1 {
+    color: #343a40; /* Dark gray color for the header */
+}
+
+p {
+    color: #6c757d; /* Medium gray color for paragraph text */
+    margin-top: 10px; /* Space above paragraphs */
+    text-align: center; /* Centered text */
+}
+
+/* Add some padding and margin */
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
